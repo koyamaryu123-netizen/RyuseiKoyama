@@ -12,7 +12,6 @@ body {
     padding: 0 20px;
 }
 
-/* ヘッダー */
 #header {
     display: flex; 
     justify-content: space-between;
