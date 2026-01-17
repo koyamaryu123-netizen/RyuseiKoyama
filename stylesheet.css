@@ -1,15 +1,15 @@
 
 body {
-    font-family: sans-serif; /* Slide 40: ゴシック体指定 [cite: 541] */
-    color: #333333; /* 文字色を真っ黒ではなく少しグレーに [cite: 539] */
-    background-color: #f9f9f9; /* 背景を薄いグレーに */
+    font-family: sans-serif; 
+    color: #333333;
+    background-color: #f9f9f9; 
     margin: 0;
 }
 
 .wrapper {
-    max-width: 800px; /* 幅を制限 [cite: 693] */
-    margin: auto; /* 中央寄せ [cite: 698] */
-    padding: 0 20px; /* 横の余白 [cite: 695] */
+    max-width: 800px; 
+    margin: auto;
+    padding: 0 20px; 
 }
 
 #header {
