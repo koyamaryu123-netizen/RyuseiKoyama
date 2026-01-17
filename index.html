@@ -1,37 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8"> <title>1J24F072のポートフォリオ</title> <link rel="stylesheet" href="style.css"> </head>
+    <meta charset="utf-8">
+    <title>1J24F072 Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
+
+    <header id="header" class="wrapper">
+        <div class="logo">
+            <span class="logo-text">1J24F072</span>
+        </div>
+        <nav>
+            <a href="#">Profile</a>
+            <a href="#">Works</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div class="hero-content wrapper">
+            <h1>Create the World.</h1>
+            <p>早稲田大学 人間科学部<br>デジタルポートフォリオ</p>
+        </div>
+    </div>
+
+    <div class="wrapper main-container">
         
-        <section>
-            <h2>プロフィール</h2>
-            <p>
-                早稲田大学 <ruby>人間科学部<rt>にんげんかがくぶ</rt></ruby> 2年の学生です。<br> 現在は大学での学びに加え、将来に向けて準備を進めています。
-            </p>
-        </section>
+        <div class="content-row">
+            
+            <section class="card">
+                <h2>Profile</h2>
+                <p>
+                    <ruby>西落合<rt>にしおちあい</rt></ruby>在住の大学2年生。<br>
+                    データ分析の課題に取り組みつつ、将来のキャリア（公務員・都庁）を見据えて活動中。
+                </p>
+            </section>
 
-        <section>
-            <h2>現在の目標</h2>
-            <p class="important"> 公務員試験（都庁）合格に向けて勉強中です。
-            </p>
-            <p>
-                インターンシップに向けての面接、準備や、SPI対策なども並行して行っています。<br>
-                成人祝いでPC環境を整えたので、以前よりさらに効率よく作業できるようになりました。将来に向けて今後も頑張っていこうと思います。
-            </p>
-        </section>
+            <section class="card">
+                <h2>Goals</h2>
+                <p class="important">
+                    Focus: 公務員試験 & インターン
+                </p>
+                <p>
+                    成人祝いでPC環境を一新。<br>
+                    効率的な学習と、クリエイティブな活動の両立を目指す。
+                </p>
+            </section>
+        </div>
 
-        <section>
-            <h2>趣味・関心</h2>
-            <ul>
-                <li><strong>Web小説</strong>：特にダークファンタジーな世界観の物語を読むのが好きです。</li> <li><strong>音楽</strong>：音楽を聴くのも、ベースを弾いて自分で音楽を奏でるのもとても好きです。</li>
-            </ul>
+        <section class="full-width">
+            <h2>Interests & Skills</h2>
+            <div class="card-container">
+                <div class="skill-card">
+                    <h3>Dark Fantasy</h3>
+                    <p>Web小説の読書・執筆。<br>重厚な世界観と人間ドラマを好む。</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Crypto / Web3</h3>
+                    <p>Solanaチェーン等の技術調査。<br>Phantom Walletの使用経験あり。</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Data Analysis</h3>
+                    <p>主成分分析など、授業での<br>CSVデータ解析経験。</p>
+                </div>
+            </div>
         </section>
-
-        <footer>
-            <p><small>&copy; 2026 1J24F072</small></p> </footer>
 
     </div>
+
+    <footer>
+        <div class="wrapper">
+            <p><small>&copy; 2026 1J24F072 | Designed with CSS Flexbox</small></p>
+        </div>
+    </footer>
 
 </body>
 </html>
