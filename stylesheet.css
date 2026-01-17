@@ -34,7 +34,7 @@ h2 {
 }
 
 .important {
-    color: red; /* [cite: 621] */
+    color: red; 
     font-weight: bold;
     background: #ffecd1; 
     padding: 10px;
@@ -49,5 +49,5 @@ a {
 }
 
 a:hover {
-    color: #8b0000; /* マウスを乗せたときの色 */
+    color: #8b0000; 
 }
