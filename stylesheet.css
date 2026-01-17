@@ -111,7 +111,6 @@ h2 {
     transition: 0.3s;
 }
 
-/* マウスを乗せると少し浮く動き */
 .skill-card:hover {
     transform: translateY(-5px); 
     border-top-color: #dc143c; 
@@ -123,7 +122,6 @@ h2 {
     padding-bottom: 10px;
 }
 
-/* フッター */
 footer {
     background-color: #000;
     color: #666;
