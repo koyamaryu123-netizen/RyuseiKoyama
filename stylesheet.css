@@ -129,3 +129,17 @@ footer {
     padding: 20px 0;
     margin-top: auto;
 }
+
+.profile-image {
+    text-align: center; /* 画像を真ん中に寄せる */
+    margin-bottom: 20px; /* 下に隙間を空ける */
+}
+
+.profile-image img {
+    width: 120px;       
+    height: 120px;      
+    object-fit: cover;  
+    border-radius: 50%; 
+    border: 3px solid #dc143c; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5); 
+}
